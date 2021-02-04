@@ -1,6 +1,11 @@
-import  React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import { CoronaProvider } from './context'
 
-import App from './app';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <CoronaProvider>
+    <App />
+  </CoronaProvider>,
+  document.getElementById('root')
+)

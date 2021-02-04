@@ -1,33 +1,31 @@
 {
-  "name": "coronatracker",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aacismaharjan.github.io/coronatracker",
   "dependencies": {
-    "@material-ui/core": "^4.11.2",
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.5.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
-    "chart.js": "^2.9.4",
-    "classnames": "^2.2.6",
-    "react": "^17.0.1",
-    "react-chartjs-2": "^2.11.1",
+    "chart.js": "^2.9.3",
+    "gh-pages": "^3.1.0",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
     "react-countup": "^4.3.3",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -40,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "npm-update-all": "^1.0.1"
   }
 }

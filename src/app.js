@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { NavBar, Cards, CountryPicker, Charts, Footer } from './components'
+import { NavBar, Cards, CountryPicker, Charts } from './components'
 
 export const App = () => {
   return (
@@ -8,8 +8,7 @@ export const App = () => {
       <NavBar />
       <Cards />
       <CountryPicker />
-      <Charts />
-      <Footer />
+      <Charts />     
     </>
   )
 }

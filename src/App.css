@@ -1,6 +1,6 @@
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap');
 body {
   position: relative;
   background: #f1f1f1;
@@ -14,7 +14,7 @@ body {
 
 .card .card-title {
   font-size: 2em;
-  font-family: 'Fredoka One', cursive !important;
+  font-family: 'Fjalla One', sans-serif !important;
   color: #3bd5c3;
 }
 
@@ -28,4 +28,10 @@ body {
 
 .box-deaths .card-header {
   background:#929292 !important;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #3bd5c3;
+  outline: 0;
 }

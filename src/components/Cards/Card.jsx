@@ -14,7 +14,7 @@ const Card = ({ cards: { name, text, cases, lastUpdate } }) => {
           </p>
           <p className='card-text'>{text}</p>
         </div>
-        <div className='card-header bg-light text-white'>{name}</div>
+        <div className='card-header bg-light text-white font-weight-bold'>{name}</div>
       </div>
     </div>
   )

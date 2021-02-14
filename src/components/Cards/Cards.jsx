@@ -12,17 +12,17 @@ const Cards = () => {
     ? [
         {
           name: 'Infected',
-          text: 'Number of active cases',
+          text: 'Number of infected cases',
           cases: recovered.value,
         },
         {
           name: 'Recovered',
-          text: 'Number of active cases',
+          text: 'Number of recovered cases',
           cases: confirmed.value,
         },
         {
           name: 'Deaths',
-          text: 'Number of active cases',
+          text: 'Number of deaths',
           cases: deaths.value,
         },
       ]

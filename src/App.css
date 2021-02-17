@@ -36,3 +36,6 @@ body {
   outline: 0;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #3bd5cf!important;
+}
